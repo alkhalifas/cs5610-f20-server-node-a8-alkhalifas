@@ -1,0 +1,32 @@
+[
+  {
+    "_id": "1",
+    "question": "What does HTML stand for?",
+    "answer": "2",
+    "quizId": "1"},
+  {
+    "_id": "2",
+    "question": "What does CSS stand for?",
+    "answer": "CSS",
+    "quizId": "1"},
+  {
+    "_id": "3",
+    "question": "What does URL stand for?",
+    "answer": "URL",
+    "quizId": "2"},
+  {
+    "_id": "4",
+    "question": "What does WWW stand for?",
+    "answer": "WWW",
+    "quizId": "2"},
+  {
+    "_id": "5",
+    "question": "What does UML stand for?",
+    "answer": "UML",
+    "quizId": "3"},
+  {
+    "_id": "6",
+    "question": "What does AMG stand for?",
+    "answer": "AMG",
+    "quizId": "3"}
+]
