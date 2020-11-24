@@ -1,10 +1,10 @@
-const express = require("express")
-const app = express()
+const express = require("express");
+const app = express();
 var cors = require('cors');
 
-const bodyParser = require('body-parser')
-app.use(bodyParser.urlencoded({ extended: false }))
-app.use(bodyParser.json())
+const bodyParser = require('body-parser');
+app.use(bodyParser.urlencoded({ extended: false }));
+app.use(bodyParser.json());
 
 app.use(
     cors({
@@ -14,13 +14,11 @@ app.use(
 );
 app.options('*', cors());
 
-
-
-require("./controllers/questions-controller")(app)
-require("./controllers/quizzes-controller")(app)
+require("./controllers/questions-controller")(app);
+require("./controllers/quizzes-controller")(app);
 
 // app.listen(3001)
 
-app.listen(process.env.PORT || 3000, () =>
+app.listen(process.env.PORT || 3001, () =>
     console.log("Server is running...")
 );
