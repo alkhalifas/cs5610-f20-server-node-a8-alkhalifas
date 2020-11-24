@@ -1,38 +1,52 @@
 [
-  {
-    "_id": "1",
-    "question": "What does HTML stand for?",
-    "answer": "2",
-    "quizId": "1"
+  {"_id": "1",
+    "title": "HTML True False",
+    "quizId": "1",
+    "question": "HTML Stands to Hypertext Machine Learning",
+    "correct": "false",
+    "type": "TRUE_FALSE"
   },
-  {
-    "_id": "2",
+  {"_id": "2",
+    "title": "CSS Multiple Choice",
+    "quizId": "1",
     "question": "What does CSS stand for?",
-    "answer": "CSS",
-    "quizId": "1"
+    "correct": "Cascading Style Sheets",
+    "type": "MULTIPLE_CHOICE",
+    "choices": ["Cascading Style Sheets",
+                "Copying Style Sheets",
+                "Cascading Short Sheets",
+                "Cascading Style Sets"]
   },
-  {
-    "_id": "3",
-    "question": "What does URL stand for?",
-    "answer": "URL",
-    "quizId": "2"
+  {"_id": "3",
+    "title": "JPA True False",
+    "quizId": "2",
+    "question": "JPA stands for Java Persistence API",
+    "correct": "true",
+    "type": "TRUE_FALSE"
   },
-  {
-    "_id": "4",
-    "question": "What does WWW stand for?",
-    "answer": "WWW",
-    "quizId": "2"
+  {"_id": "4",
+    "title": "JS True or False",
+    "quizId": "2",
+    "question": "JS Stands for Java Script",
+    "correct": "true",
+    "type": "TRUE_FALSE"
   },
-  {
-    "_id": "5",
-    "question": "What does UML stand for?",
-    "answer": "UML",
-    "quizId": "3"
+  {"_id": "5",
+    "title": "Machine Learning Multiple Choice",
+    "quizId": "3",
+    "question": "How many 'categories' of Machine Learning are there?",
+    "correct": "Three",
+    "type": "MULTIPLE_CHOICE",
+    "choices": ["One",
+                "Two",
+                "Three",
+                "Four"]
   },
-  {
-    "_id": "6",
-    "question": "What does AMG stand for?",
-    "answer": "AMG",
-    "quizId": "3"
+  {"_id": "6",
+    "title": "Machine Learning True False",
+    "quizId": "3",
+    "question": "Supervised Learning involve labels",
+    "correct": "false",
+    "type": "TRUE_FALSE"
   }
 ]
